@@ -33,9 +33,9 @@ const Body = () => {
     const data = await fetch(
       `https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.2181987&lng=72.9622965&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`
     );
-    const response = await fetch(data);
+    // const response = await fetch(data);
     console.log("ABCD");
-    console.log(response);
+    // console.log(response);
 
     const json = await data.json();
     console.log(json);
