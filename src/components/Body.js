@@ -31,7 +31,7 @@ const Body = () => {
   // async function getRestaurant to fetch Swiggy API data
   async function getRestaurants() {
     const data = await fetch(
-      `https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.2181987&lng=72.9622965&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING/getall`,
+      `https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.2181987&lng=72.9622965&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`,
       {
         method: "GET",
       }
